@@ -1,0 +1,61 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# محیط مجازی
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# ===== ابزارهای تست و کاورج =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ===== ابزارهای تایپ و لینت =====
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# ===== فایل‌های خروجی برنامه =====
+# فایل‌های PDF تولیدشده
+*.pdf
+
+# فایل‌های موقت/میانی
+*.tmp
+*.temp
+
+# ===== عکس‌های ورودی (اگر نمی‌خواهی در ریپو باشند) =====
+# اگر می‌خواهی نمونه‌ها را نگه داری، این بخش را کامنت کن
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# ===== سیستم‌عامل =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== ادیتورها =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
